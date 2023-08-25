@@ -1,0 +1,208 @@
+2023-08-24 12:33:12,771 INFO app:: Making inference on data [CensusDataInputs(age=34, workclass='Private', fnlgt=24587, education='7th-8th', education_num=4, marital_status='Married', occupation='Doctor', relationship='Husband', race='Turkish', sex='Male', capital_gain=10, capital_loss=0, hours_per_week=40, native_country='Malaysia')]
+2023-08-24 12:33:12,784 INFO app:: result is ['<=50K']
+2023-08-24 12:33:51,288 INFO app:: Making inference on data [CensusDataInputs(age=34, workclass='Private', fnlgt=24587, education='7th-8th', education_num=4, marital_status='Married', occupation='Doctor', relationship='Husband', race='Turkish', sex='Male', capital_gain=10, capital_loss=0, hours_per_week=40, native_country='Malaysia')]
+2023-08-24 12:33:51,301 INFO app:: result is ['<=50K']
+2023-08-24 17:59:30,814 INFO model.run_training:: Splitting data into test and train datasets
+2023-08-24 17:59:30,830 INFO model.run_training:: Training data has 24420 rows. Training the model..
+2023-08-24 17:59:30,830 INFO model.model:: Fitting the model..
+2023-08-24 17:59:31,223 INFO model.run_training:: Calculated on 8141 rows. Metrics with test data: precision: 0.68347, recall: 0.42916, f1: 0.52726
+2023-08-24 17:59:31,223 INFO model.preprocessing:: Pipeline is saved to ./model/trained_model/model.pkl
+2023-08-24 17:59:31,223 INFO model.preprocessing:: LabelEncoder is saved to ./model/trained_model/labelencoder.pkl
+2023-08-24 17:59:52,910 INFO model.preprocessing:: Pipeline is saved to ./mocked_directory/model.pkl
+2023-08-24 17:59:52,928 INFO model.model:: Fitting the model..
+2023-08-24 17:59:52,942 INFO tests.test_functions:: Pipeline is fitted: Success
+2023-08-24 17:59:52,974 INFO app:: Making inference on data [CensusDataInputs(age=34, workclass='Private', fnlgt=24587, education='7th-8th', education_num=4, marital_status='Married', occupation='Doctor', relationship='Husband', race='Turkish', sex='Male', capital_gain=10, capital_loss=0, hours_per_week=40, native_country='Malaysia')]
+2023-08-24 17:59:52,974 INFO app:: result is ['<=50K']
+2023-08-24 18:00:21,552 INFO model.preprocessing:: Pipeline is saved to ./mocked_directory/model.pkl
+2023-08-24 18:00:21,564 INFO model.model:: Fitting the model..
+2023-08-24 18:00:21,582 INFO tests.test_functions:: Pipeline is fitted: Success
+2023-08-24 18:01:40,705 INFO app:: Making inference on data [CensusDataInputs(age=34, workclass='Private', fnlgt=24587, education='7th-8th', education_num=4, marital_status='Married', occupation='Doctor', relationship='Husband', race='Turkish', sex='Male', capital_gain=10, capital_loss=0, hours_per_week=40, native_country='Malaysia')]
+2023-08-24 18:01:40,719 INFO app:: result is ['<=50K']
+2023-08-24 18:06:02,131 INFO model.run_training:: Splitting data into test and train datasets
+2023-08-24 18:06:02,146 INFO model.run_training:: Training data has 24420 rows. Training the model..
+2023-08-24 18:06:02,146 INFO model.model:: Fitting the model..
+2023-08-24 18:06:02,604 INFO model.run_training:: Calculated on 8141 rows. Metrics with test data: precision: 0.68347, recall: 0.42916, f1: 0.52726
+2023-08-24 18:06:02,604 INFO model.preprocessing:: Pipeline is saved to ./model/trained_model/model.pkl
+2023-08-24 18:06:02,604 INFO model.preprocessing:: LabelEncoder is saved to ./model/trained_model/labelencoder.pkl
+2023-08-24 18:06:23,845 INFO model.preprocessing:: Pipeline is saved to ./mocked_directory/model.pkl
+2023-08-24 18:06:23,874 INFO model.model:: Fitting the model..
+2023-08-24 18:06:23,890 INFO tests.test_functions:: Pipeline is fitted: Success
+2023-08-24 18:06:23,951 INFO app:: Making inference on data [CensusDataInputs(age=34, workclass='Private', fnlgt=24587, education='7th-8th', education_num=4, marital_status='Married', occupation='Doctor', relationship='Husband', race='Turkish', sex='Male', capital_gain=10, capital_loss=0, hours_per_week=40, native_country='Malaysia')]
+2023-08-24 18:06:23,961 INFO app:: result is ['<=50K']
+2023-08-24 18:07:24,015 INFO __main__:: Making inference on data [CensusDataInputs(age=34, workclass='Private', fnlgt=24587, education='7th-8th', education_num=4, marital_status='Married', occupation='Doctor', relationship='Husband', race='Turkish', sex='Male', capital_gain=10, capital_loss=0, hours_per_week=40, native_country='Malaysia')]
+2023-08-24 18:07:24,038 INFO __main__:: result is ['<=50K']
+2023-08-24 18:29:22,238 INFO model.preprocessing:: Pipeline is saved to ./mocked_directory/model.pkl
+2023-08-24 18:29:26,410 INFO model.run_training:: Splitting data into test and train datasets
+2023-08-24 18:29:26,441 INFO model.run_training:: Training data has 24420 rows. Training the model..
+2023-08-24 18:29:26,441 INFO model.model:: Fitting the model..
+2023-08-24 18:29:27,133 INFO model.run_training:: Calculated on 8141 rows. Metrics with test data: precision: 0.68347, recall: 0.42916, f1: 0.52726
+2023-08-24 18:29:27,133 INFO model.preprocessing:: Pipeline is saved to ./model/trained_model/model.pkl
+2023-08-24 18:29:27,133 INFO model.preprocessing:: LabelEncoder is saved to ./model/trained_model/labelencoder.pkl
+2023-08-24 18:29:27,952 INFO model.model:: Fitting the model..
+2023-08-24 18:29:27,981 INFO tests.test_functions:: Pipeline is fitted: Success
+2023-08-24 18:29:28,045 INFO app:: Making inference on data [CensusDataInputs(age=34, workclass='Private', fnlgt=24587, education='7th-8th', education_num=4, marital_status='Married', occupation='Doctor', relationship='Husband', race='Turkish', sex='Male', capital_gain=10, capital_loss=0, hours_per_week=40, native_country='Malaysia')]
+2023-08-24 18:29:28,061 INFO app:: result is ['<=50K']
+2023-08-24 20:27:52,661 INFO model.preprocessing:: Pipeline is saved to ./mocked_directory/model.pkl
+2023-08-24 20:27:54,845 INFO model.run_training:: Splitting data into test and train datasets
+2023-08-24 20:27:54,861 INFO model.run_training:: Training data has 24420 rows. Training the model..
+2023-08-24 20:27:54,861 INFO model.model:: Fitting the model..
+2023-08-24 20:27:55,238 INFO model.run_training:: Calculated on 8141 rows. Metrics with test data: precision: 0.68347, recall: 0.42916, f1: 0.52726
+2023-08-24 20:27:55,238 INFO model.preprocessing:: Pipeline is saved to ./model/trained_model/model.pkl
+2023-08-24 20:27:55,238 INFO model.preprocessing:: LabelEncoder is saved to ./model/trained_model/labelencoder.pkl
+2023-08-24 20:27:55,647 INFO model.model:: Fitting the model..
+2023-08-24 20:27:55,647 INFO tests.test_functions:: Pipeline is fitted: Success
+2023-08-24 20:27:55,678 INFO app:: Making inference on data [CensusDataInputs(age=34, workclass='Private', fnlgt=24587, education='7th-8th', education_num=4, marital_status='Married', occupation='Doctor', relationship='Husband', race='Turkish', sex='Male', capital_gain=10, capital_loss=0, hours_per_week=40, native_country='Malaysia')]
+2023-08-24 20:27:55,694 INFO app:: result is ['<=50K']
+2023-08-24 20:34:24,403 INFO __main__:: data [{'age': 34, 'workclass': 'Private', 'fnlgt': 13, 'education': '7th-8th', 'education_num': 4, 'maritalstatus': 'Married', 'occupation': 'Doctor', 'relationship': 'Husband', 'race': 'Turkish', 'sex': 'Male', 'capital_gain': 10, 'capital_loss': 0, 'hours_per_week': 40, 'native_country': 'Malaysia'}] gives error. Error message: [
+  {
+    "loc": [
+      "data",
+      0,
+      "marital_status"
+    ],
+    "msg": "field required",
+    "type": "value_error.missing"
+  }
+]
+2023-08-24 20:36:12,406 INFO __main__:: data [{'age': 34, 'workclass': 'Private', 'fnlgt': 13, 'education': '7th-8th', 'education_num': 4, 'maritalstatus': 'Married', 'occupation': 'Doctor', 'relationship': 'Husband', 'race': 'Turkish', 'sex': 'Male', 'capital_gain': 10, 'capital_loss': 0, 'hours_per_week': 40, 'native_country': 'Malaysia'}] gives error. Error message: [
+  {
+    "loc": [
+      "data",
+      0,
+      "marital_status"
+    ],
+    "msg": "field required",
+    "type": "value_error.missing"
+  }
+]
+2023-08-24 20:38:53,812 INFO model.preprocessing:: Pipeline is saved to ./mocked_directory/model.pkl
+2023-08-24 20:38:56,712 INFO model.run_training:: Splitting data into test and train datasets
+2023-08-24 20:38:56,732 INFO model.run_training:: Training data has 24420 rows. Training the model..
+2023-08-24 20:38:56,732 INFO model.model:: Fitting the model..
+2023-08-24 20:38:57,187 INFO model.run_training:: Calculated on 8141 rows. Metrics with test data: precision: 0.68347, recall: 0.42916, f1: 0.52726
+2023-08-24 20:38:57,187 INFO model.preprocessing:: Pipeline is saved to ./model/trained_model/model.pkl
+2023-08-24 20:38:57,187 INFO model.preprocessing:: LabelEncoder is saved to ./model/trained_model/labelencoder.pkl
+2023-08-24 20:38:57,786 INFO model.model:: Fitting the model..
+2023-08-24 20:38:57,805 INFO tests.test_functions:: Pipeline is fitted: Success
+2023-08-24 20:38:57,864 INFO app:: Making inference on data [CensusDataInputs(age=34, workclass='Private', fnlgt=24587, education='7th-8th', education_num=4, marital_status='Married', occupation='Doctor', relationship='Husband', race='Turkish', sex='Male', capital_gain=10, capital_loss=0, hours_per_week=40, native_country='Malaysia')]
+2023-08-24 20:38:57,872 INFO app:: result is ['<=50K']
+2023-08-24 20:39:23,601 INFO model.preprocessing:: Pipeline is saved to ./mocked_directory/model.pkl
+2023-08-24 20:39:23,635 INFO model.model:: Fitting the model..
+2023-08-24 20:39:23,649 INFO tests.test_functions:: Pipeline is fitted: Success
+2023-08-24 20:39:23,727 INFO app:: Making inference on data [CensusDataInputs(age=34, workclass='Private', fnlgt=24587, education='7th-8th', education_num=4, marital_status='Married', occupation='Doctor', relationship='Husband', race='Turkish', sex='Male', capital_gain=10, capital_loss=0, hours_per_week=40, native_country='Malaysia')]
+2023-08-24 20:39:23,747 INFO app:: result is ['<=50K']
+2023-08-24 20:42:07,739 INFO model.preprocessing:: Pipeline is saved to ./mocked_directory/model.pkl
+2023-08-24 20:42:07,754 INFO model.model:: Fitting the model..
+2023-08-24 20:42:07,770 INFO tests.test_functions:: Pipeline is fitted: Success
+2023-08-24 20:42:07,810 INFO app:: Making inference on data [CensusDataInputs(age=34, workclass='Private', fnlgt=24587, education='7th-8th', education_num=4, marital_status='Married', occupation='Doctor', relationship='Husband', race='Turkish', sex='Male', capital_gain=10, capital_loss=0, hours_per_week=40, native_country='Malaysia')]
+2023-08-24 20:42:07,827 INFO app:: result is ['<=50K']
+2023-08-25 07:13:29,944 INFO model.preprocessing:: Pipeline is saved to ./mocked_directory/model.pkl
+2023-08-25 07:13:29,982 INFO model.model:: Fitting the model..
+2023-08-25 07:13:30,053 INFO tests.test_functions:: Pipeline is fitted: Success
+2023-08-25 07:13:30,159 INFO app:: Making inference on data [CensusDataInputs(age=34, workclass='Private', fnlgt=24587, education='7th-8th', education_num=4, marital_status='Married', occupation='Doctor', relationship='Husband', race='Turkish', sex='Male', capital_gain=10, capital_loss=0, hours_per_week=40, native_country='Malaysia')]
+2023-08-25 07:13:30,196 INFO app:: result is ['<=50K']
+2023-08-25 07:14:20,592 INFO model.preprocessing:: Pipeline is saved to ./mocked_directory/model.pkl
+2023-08-25 07:14:20,606 INFO model.model:: Fitting the model..
+2023-08-25 07:14:20,622 INFO tests.test_functions:: Pipeline is fitted: Success
+2023-08-25 07:14:20,669 INFO app:: Making inference on data [CensusDataInputs(age=34, workclass='Private', fnlgt=24587, education='7th-8th', education_num=4, marital_status='Married', occupation='Doctor', relationship='Husband', race='Turkish', sex='Male', capital_gain=10, capital_loss=0, hours_per_week=40, native_country='Malaysia')]
+2023-08-25 07:14:20,695 INFO app:: result is ['<=50K']
+2023-08-25 07:15:28,085 INFO model.preprocessing:: Pipeline is saved to ./mocked_directory/model.pkl
+2023-08-25 07:15:28,113 INFO model.model:: Fitting the model..
+2023-08-25 07:15:28,117 INFO tests.test_functions:: Pipeline is fitted: Success
+2023-08-25 07:15:28,162 INFO app:: Making inference on data [CensusDataInputs(age=34, workclass='Private', fnlgt=24587, education='7th-8th', education_num=4, marital_status='Married', occupation='Doctor', relationship='Husband', race='Turkish', sex='Male', capital_gain=10, capital_loss=0, hours_per_week=40, native_country='Malaysia')]
+2023-08-25 07:15:28,180 INFO app:: result is ['<=50K']
+2023-08-25 07:16:48,842 INFO model.preprocessing:: Pipeline is saved to ./mocked_directory/model.pkl
+2023-08-25 07:16:48,883 INFO model.model:: Fitting the model..
+2023-08-25 07:16:48,930 INFO tests.test_functions:: Pipeline is fitted: Success
+2023-08-25 07:16:48,977 INFO app:: Making inference on data [CensusDataInputs(age=34, workclass='Private', fnlgt=24587, education='7th-8th', education_num=4, marital_status='Married', occupation='Doctor', relationship='Husband', race='Turkish', sex='Male', capital_gain=10, capital_loss=0, hours_per_week=40, native_country='Malaysia')]
+2023-08-25 07:16:48,981 INFO app:: result is ['<=50K']
+2023-08-25 07:18:14,928 INFO model.preprocessing:: Pipeline is saved to ./mocked_directory/model.pkl
+2023-08-25 07:18:14,944 INFO model.model:: Fitting the model..
+2023-08-25 07:18:14,960 INFO tests.test_functions:: Pipeline is fitted: Success
+2023-08-25 07:18:15,023 INFO app:: Making inference on data [CensusDataInputs(age=34, workclass='Private', fnlgt=24587, education='7th-8th', education_num=4, marital_status='Married', occupation='Doctor', relationship='Husband', race='Turkish', sex='Male', capital_gain=10, capital_loss=0, hours_per_week=40, native_country='Malaysia')]
+2023-08-25 07:18:15,041 INFO app:: result is ['<=50K']
+2023-08-25 08:20:15,369 INFO __main__:: data [{'age': 34, 'workclass': 'Private', 'fnlgt': 13, 'education': '7th-8th', 'education_num': 4, 'maritalstatus': 'Married', 'occupation': 'Doctor', 'relationship': 'Husband', 'race': 'Turkish', 'sex': 'Male', 'capital_gain': 10, 'capital_loss': 0, 'hours_per_week': 40, 'native_country': 'Malaysia'}] gives error. Error message: [
+  {
+    "loc": [
+      "data",
+      0,
+      "marital_status"
+    ],
+    "msg": "field required",
+    "type": "value_error.missing"
+  }
+]
+2023-08-25 08:20:42,764 INFO __main__:: data [{'age': 34, 'workclass': 'Private', 'fnlgt': 13, 'education': '7th-8th', 'education_num': 4, 'maritalstatus': 'Married', 'occupation': 'Doctor', 'relationship': 'Husband', 'race': 'Turkish', 'sex': 'Male', 'capital_gain': 10, 'capital_loss': 0, 'hours_per_week': 40, 'native_country': 'Malaysia'}] gives error. Error message: [
+  {
+    "loc": [
+      "data",
+      0,
+      "marital_status"
+    ],
+    "msg": "field required",
+    "type": "value_error.missing"
+  }
+]
+2023-08-25 08:21:01,493 INFO __main__:: data [{'age': 34, 'workclass': 'Private', 'fnlgt': 13, 'education': '7th-8th', 'education_num': 4, 'maritalstatus': 'Married', 'occupation': 'Doctor', 'relationship': 'Husband', 'race': 'Turkish', 'sex': 'Male', 'capital_gain': 10, 'capital_loss': 0, 'hours_per_week': 40, 'native_country': 'Malaysia'}] gives error. Error message: [
+  {
+    "loc": [
+      "data",
+      0,
+      "marital_status"
+    ],
+    "msg": "field required",
+    "type": "value_error.missing"
+  }
+]
+2023-08-25 08:31:58,856 INFO model.preprocessing:: Pipeline is saved to ./mocked_directory/model.pkl
+2023-08-25 08:31:58,902 INFO model.model:: Fitting the model..
+2023-08-25 08:31:58,905 INFO tests.test_functions:: Pipeline is fitted: Success
+2023-08-25 08:31:58,952 INFO app:: Making inference on data [CensusDataInputs(age=34, workclass='Private', fnlgt=24587, education='7th-8th', education_num=4, marital_status='Married', occupation='Doctor', relationship='Husband', race='Turkish', sex='Male', capital_gain=10, capital_loss=0, hours_per_week=40, native_country='Malaysia')]
+2023-08-25 08:31:58,963 INFO app:: result is ['<=50K']
+2023-08-25 08:33:35,360 INFO model.preprocessing:: Pipeline is saved to ./mocked_directory/model.pkl
+2023-08-25 08:33:35,391 INFO model.model:: Fitting the model..
+2023-08-25 08:33:35,407 INFO tests.test_functions:: Pipeline is fitted: Success
+2023-08-25 08:33:35,475 INFO app:: Making inference on data [CensusDataInputs(age=34, workclass='Private', fnlgt=24587, education='7th-8th', education_num=4, marital_status='Married', occupation='Doctor', relationship='Husband', race='Turkish', sex='Male', capital_gain=10, capital_loss=0, hours_per_week=40, native_country='Malaysia')]
+2023-08-25 08:33:35,486 INFO app:: result is ['<=50K']
+2023-08-25 08:41:50,833 INFO model.run_training:: Splitting data into test and train datasets
+2023-08-25 08:41:50,898 INFO model.run_training:: Training data has 24420 rows. Training the model..
+2023-08-25 08:41:50,898 INFO model.model:: Fitting the model..
+2023-08-25 08:41:51,369 INFO model.run_training:: Calculated on 8141 rows. Metrics with test data: precision: 0.68347, recall: 0.42916, f1: 0.52726
+2023-08-25 08:41:51,385 INFO model.preprocessing:: Pipeline is saved to ./model/trained_model/model.pkl
+2023-08-25 08:41:51,385 INFO model.preprocessing:: LabelEncoder is saved to ./model/trained_model/labelencoder.pkl
+2023-08-25 08:43:25,736 INFO __main__:: Making inference on data [CensusDataInputs(age=34, workclass='Private', fnlgt=24587, education='College', education_num=12, marital_status='Married', occupation='Doctor', relationship='Husband', race='Turkish', sex='Male', capital_gain=10, capital_loss=0, hours_per_week=40, native_country='Malaysia')]
+2023-08-25 08:43:25,756 INFO __main__:: result is ['<=50K']
+2023-08-25 08:43:28,277 INFO __main__:: Making inference on data [CensusDataInputs(age=34, workclass='Private', fnlgt=24587, education='College', education_num=12, marital_status='Married', occupation='Doctor', relationship='Husband', race='Turkish', sex='Male', capital_gain=10, capital_loss=0, hours_per_week=40, native_country='Malaysia')]
+2023-08-25 08:43:28,306 INFO __main__:: result is ['<=50K']
+2023-08-25 08:49:31,304 INFO __main__:: Making inference on data [CensusDataInputs(age=34, workclass='Private', fnlgt=24587, education='College', education_num=12, marital_status='Married', occupation='Doctor', relationship='Husband', race='Turkish', sex='Male', capital_gain=10, capital_loss=0, hours_per_week=40, native_country='Malaysia')]
+2023-08-25 08:49:31,330 INFO __main__:: result is ['<=50K']
+2023-08-25 08:53:07,173 INFO model.preprocessing:: Pipeline is saved to ./mocked_directory/model.pkl
+2023-08-25 08:53:07,202 INFO model.model:: Fitting the model..
+2023-08-25 08:53:07,204 INFO tests.test_functions:: Pipeline is fitted: Success
+2023-08-25 08:53:07,238 INFO app:: Making inference on data [CensusDataInputs(age=34, workclass='Private', fnlgt=24587, education='College', education_num=12, marital_status='Married', occupation='Doctor', relationship='Husband', race='Turkish', sex='Male', capital_gain=10, capital_loss=0, hours_per_week=40, native_country='Malaysia')]
+2023-08-25 08:53:07,266 INFO app:: result is ['<=50K']
+2023-08-25 09:07:33,616 INFO model.preprocessing:: Pipeline is saved to ./mocked_directory/model.pkl
+2023-08-25 09:07:33,628 INFO model.model:: Fitting the model..
+2023-08-25 09:07:33,642 INFO tests.test_functions:: Pipeline is fitted: Success
+2023-08-25 09:07:33,709 INFO app:: Making inference on data [CensusDataInputs(age=34, workclass='Private', fnlgt=24587, education='College', education_num=12, marital_status='Married', occupation='Doctor', relationship='Husband', race='Turkish', sex='Male', capital_gain=10, capital_loss=0, hours_per_week=40, native_country='Malaysia')]
+2023-08-25 09:07:33,721 INFO app:: result is ['<=50K']
+2023-08-25 09:10:02,593 INFO model.preprocessing:: Pipeline is saved to ./mocked_directory/model.pkl
+2023-08-25 09:10:02,625 INFO model.model:: Fitting the model..
+2023-08-25 09:10:02,641 INFO tests.test_functions:: Pipeline is fitted: Success
+2023-08-25 09:10:02,690 INFO app:: Making inference on data [CensusDataInputs(age=34, workclass='Private', fnlgt=24587, education='College', education_num=12, marital_status='Married', occupation='Doctor', relationship='Husband', race='Turkish', sex='Male', capital_gain=10, capital_loss=0, hours_per_week=40, native_country='Malaysia')]
+2023-08-25 09:10:02,712 INFO app:: result is ['<=50K']
+2023-08-25 09:10:13,456 INFO model.run_training:: Splitting data into test and train datasets
+2023-08-25 09:10:13,487 INFO model.run_training:: Training data has 24420 rows. Training the model..
+2023-08-25 09:10:13,487 INFO model.model:: Fitting the model..
+2023-08-25 09:10:13,985 INFO model.run_training:: Calculated on 8141 rows. Metrics with test data: precision: 0.68347, recall: 0.42916, f1: 0.52726
+2023-08-25 09:10:13,992 INFO model.preprocessing:: Pipeline is saved to ./model/trained_model/model.pkl
+2023-08-25 09:10:13,999 INFO model.preprocessing:: LabelEncoder is saved to ./model/trained_model/labelencoder.pkl
+2023-08-25 09:11:09,026 INFO __main__:: Making inference on data [CensusDataInputs(age=34, workclass='Private', fnlgt=24587, education='College', education_num=12, marital_status='Married', occupation='Doctor', relationship='Husband', race='Turkish', sex='Male', capital_gain=10, capital_loss=0, hours_per_week=40, native_country='Malaysia')]
+2023-08-25 09:11:09,060 INFO __main__:: result is ['<=50K']
+2023-08-25 09:11:18,167 INFO __main__:: Making inference on data [CensusDataInputs(age=34, workclass='Private', fnlgt=24587, education='College', education_num=12, marital_status='Married', occupation='Doctor', relationship='Husband', race='Turkish', sex='Male', capital_gain=10000, capital_loss=0, hours_per_week=40, native_country='Malaysia')]
+2023-08-25 09:11:18,195 INFO __main__:: result is ['>50K']
+2023-08-25 09:15:01,874 INFO model.preprocessing:: Pipeline is saved to ./mocked_directory/model.pkl
+2023-08-25 09:15:01,909 INFO model.model:: Fitting the model..
+2023-08-25 09:15:01,924 INFO tests.test_functions:: Pipeline is fitted: Success
+2023-08-25 09:15:01,957 INFO app:: Making inference on data [CensusDataInputs(age=34, workclass='Private', fnlgt=24587, education='College', education_num=12, marital_status='Married', occupation='Doctor', relationship='Husband', race='Turkish', sex='Male', capital_gain=10, capital_loss=0, hours_per_week=40, native_country='Malaysia')]
+2023-08-25 09:15:01,969 INFO app:: result is ['<=50K']

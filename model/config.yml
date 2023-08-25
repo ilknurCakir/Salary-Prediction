@@ -1,0 +1,35 @@
+data_path: ./model/data/census.csv
+model_path: ./model/trained_model/model.pkl
+labelencoder_path: ./model/trained_model/labelencoder.pkl
+
+dependent_feature: salary
+
+features:
+  - age
+  - workclass
+  - fnlgt
+  - education
+  - education_num
+  - marital_status
+  - occupation
+  - relationship
+  - race
+  - sex
+  - capital_gain
+  - capital_loss
+  - hours_per_week
+  - native_country
+
+
+categorical_vars:
+  - workclass
+  - education
+  - marital_status
+  - occupation
+  - relationship
+  - race
+  - sex
+  - native_country
+
+test_size: 0.25
+random_state: 42
