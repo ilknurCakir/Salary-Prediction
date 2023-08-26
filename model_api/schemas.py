@@ -37,7 +37,7 @@ class MultipleCensusDataInputs(BaseModel):
                         "capital_gain": 10,
                         "capital_loss": 0,
                         "hours_per_week": 40,
-                        "native_country": "Malaysia",
+                        "native_country": "United States",
                     }
                 ]
             }
