@@ -3,7 +3,6 @@ import unittest
 import numpy as np
 import pandas as pd
 from fastapi.testclient import TestClient
-from fastapi.responses import HTMLResponse
 from pydantic import ValidationError
 
 from app import app
@@ -32,9 +31,6 @@ class TestApiHealth(unittest.TestCase):
         self.assertTrue(r_text.get("model_version", None) == model_version)
         self.assertTrue(r_text.get("api_version", None) == api_version)
 
-        # check if the result is of schema Health
-        # json_item = json.loads(r_text)
-
         try:
             schemas.Health(**r_text)
         except ValidationError as err:
@@ -55,7 +51,7 @@ class TestApiPredict(unittest.TestCase):
                     "marital_status": "Married",
                     "occupation": "Doctor",
                     "relationship": "Husband",
-                    "race": "Turkish",
+                    "race": "White",
                     "sex": "Male",
                     "capital_gain": 10,
                     "capital_loss": 0,
@@ -105,7 +101,7 @@ class TestApiPredict(unittest.TestCase):
                     "marital_status": "Married",
                     "occupation": "Doctor",
                     "relationship": "Husband",
-                    "race": "Turkish",
+                    "race": "White",
                     "sex": "Male",
                     "capital_gain": 10,
                     "capital_loss": 0,
@@ -150,7 +146,7 @@ class TestApiPredict(unittest.TestCase):
                     "marital_status": "Married",
                     "occupation": "Doctor",
                     "relationship": "Husband",
-                    "race": "Turkish",
+                    "race": "White",
                     "sex": "Male",
                     "capital_gain": 10,
                     "capital_loss": 0,

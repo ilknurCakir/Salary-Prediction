@@ -32,7 +32,7 @@ class MultipleCensusDataInputs(BaseModel):
                         "marital_status": "Married",
                         "occupation": "Doctor",
                         "relationship": "Husband",
-                        "race": "Turkish",
+                        "race": "White",
                         "sex": "Male",
                         "capital_gain": 10,
                         "capital_loss": 0,
