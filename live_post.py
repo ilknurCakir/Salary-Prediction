@@ -1,5 +1,5 @@
 import requests
-import pandas as pd 
+import pandas as pd
 import numpy as np
 
 test_data = pd.DataFrame(
@@ -35,5 +35,3 @@ print('Live post to https://ilknurcakir-salary-prediction.onrender.com/predict')
 print('------------------------------------------------------------------------')
 print(f'Live Post Status Code: {status_code}')
 print(f'Love Post Inference Result: {inference_result}')
-
-
