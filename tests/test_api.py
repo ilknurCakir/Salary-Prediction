@@ -3,6 +3,7 @@ import unittest
 import numpy as np
 import pandas as pd
 from fastapi.testclient import TestClient
+from fastapi.responses import HTMLResponse
 from pydantic import ValidationError
 
 from app import app
@@ -19,6 +20,7 @@ class TestApiLocallyGetRoot(unittest.TestCase):
         r = client.get("/")
 
         self.assertTrue(r.status_code == 200)
+        self.assertTrue(isinstance(r.text, str))
 
 
 class TestApiHealth(unittest.TestCase):
