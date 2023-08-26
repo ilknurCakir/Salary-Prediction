@@ -1,4 +1,4 @@
-name: Test and Lint
+name: Render CI/CD
 
 on:
   push:
@@ -8,7 +8,9 @@ on:
   pull_request:
     branches: [ main ]
 
+
 jobs:
+
   build:
 
     runs-on: ubuntu-latest
@@ -33,3 +35,17 @@ jobs:
     - name: Test with pytest
       run: |
         pytest
+
+
+  # Heavily modified deploy job to fit render.com
+  deploy:
+    name: Deploy
+    needs: [build] # Our tests must pass in order to run the deploy job
+    runs-on: ubuntu-latest
+
+    steps: 
+      - name: Deploy to production
+        uses: johnbeynon/render-deploy-action@v0.0.8
+        with:
+          service-id: ${{ secrets.SERVICE_ID }} # Can be found as part of the Deploy Hook
+          api-key: ${{ secrets.RENDER_TOKEN }} # Create your API key in Render Dashboard > Account Settings

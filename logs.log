@@ -206,3 +206,13 @@
 2023-08-25 09:15:01,924 INFO tests.test_functions:: Pipeline is fitted: Success
 2023-08-25 09:15:01,957 INFO app:: Making inference on data [CensusDataInputs(age=34, workclass='Private', fnlgt=24587, education='College', education_num=12, marital_status='Married', occupation='Doctor', relationship='Husband', race='Turkish', sex='Male', capital_gain=10, capital_loss=0, hours_per_week=40, native_country='Malaysia')]
 2023-08-25 09:15:01,969 INFO app:: result is ['<=50K']
+2023-08-25 09:20:03,627 INFO model.preprocessing:: Pipeline is saved to ./mocked_directory/model.pkl
+2023-08-25 09:20:03,688 INFO model.model:: Fitting the model..
+2023-08-25 09:20:03,720 INFO tests.test_functions:: Pipeline is fitted: Success
+2023-08-25 09:20:03,769 INFO app:: Making inference on data [CensusDataInputs(age=34, workclass='Private', fnlgt=24587, education='College', education_num=12, marital_status='Married', occupation='Doctor', relationship='Husband', race='Turkish', sex='Male', capital_gain=10, capital_loss=0, hours_per_week=40, native_country='Malaysia')]
+2023-08-25 09:20:03,782 INFO app:: result is ['<=50K']
+2023-08-25 12:48:27,741 INFO model.preprocessing:: Pipeline is saved to ./mocked_directory/model.pkl
+2023-08-25 12:48:27,771 INFO model.model:: Fitting the model..
+2023-08-25 12:48:27,793 INFO tests.test_functions:: Pipeline is fitted: Success
+2023-08-25 12:48:27,845 INFO app:: Making inference on data [CensusDataInputs(age=34, workclass='Private', fnlgt=24587, education='College', education_num=12, marital_status='Married', occupation='Doctor', relationship='Husband', race='Turkish', sex='Male', capital_gain=10, capital_loss=0, hours_per_week=40, native_country='Malaysia')]
+2023-08-25 12:48:27,849 INFO app:: result is ['<=50K']
