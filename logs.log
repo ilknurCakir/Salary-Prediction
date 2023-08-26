@@ -1,218 +1,308 @@
-2023-08-24 12:33:12,771 INFO app:: Making inference on data [CensusDataInputs(age=34, workclass='Private', fnlgt=24587, education='7th-8th', education_num=4, marital_status='Married', occupation='Doctor', relationship='Husband', race='Turkish', sex='Male', capital_gain=10, capital_loss=0, hours_per_week=40, native_country='Malaysia')]
-2023-08-24 12:33:12,784 INFO app:: result is ['<=50K']
-2023-08-24 12:33:51,288 INFO app:: Making inference on data [CensusDataInputs(age=34, workclass='Private', fnlgt=24587, education='7th-8th', education_num=4, marital_status='Married', occupation='Doctor', relationship='Husband', race='Turkish', sex='Male', capital_gain=10, capital_loss=0, hours_per_week=40, native_country='Malaysia')]
-2023-08-24 12:33:51,301 INFO app:: result is ['<=50K']
-2023-08-24 17:59:30,814 INFO model.run_training:: Splitting data into test and train datasets
-2023-08-24 17:59:30,830 INFO model.run_training:: Training data has 24420 rows. Training the model..
-2023-08-24 17:59:30,830 INFO model.model:: Fitting the model..
-2023-08-24 17:59:31,223 INFO model.run_training:: Calculated on 8141 rows. Metrics with test data: precision: 0.68347, recall: 0.42916, f1: 0.52726
-2023-08-24 17:59:31,223 INFO model.preprocessing:: Pipeline is saved to ./model/trained_model/model.pkl
-2023-08-24 17:59:31,223 INFO model.preprocessing:: LabelEncoder is saved to ./model/trained_model/labelencoder.pkl
-2023-08-24 17:59:52,910 INFO model.preprocessing:: Pipeline is saved to ./mocked_directory/model.pkl
-2023-08-24 17:59:52,928 INFO model.model:: Fitting the model..
-2023-08-24 17:59:52,942 INFO tests.test_functions:: Pipeline is fitted: Success
-2023-08-24 17:59:52,974 INFO app:: Making inference on data [CensusDataInputs(age=34, workclass='Private', fnlgt=24587, education='7th-8th', education_num=4, marital_status='Married', occupation='Doctor', relationship='Husband', race='Turkish', sex='Male', capital_gain=10, capital_loss=0, hours_per_week=40, native_country='Malaysia')]
-2023-08-24 17:59:52,974 INFO app:: result is ['<=50K']
-2023-08-24 18:00:21,552 INFO model.preprocessing:: Pipeline is saved to ./mocked_directory/model.pkl
-2023-08-24 18:00:21,564 INFO model.model:: Fitting the model..
-2023-08-24 18:00:21,582 INFO tests.test_functions:: Pipeline is fitted: Success
-2023-08-24 18:01:40,705 INFO app:: Making inference on data [CensusDataInputs(age=34, workclass='Private', fnlgt=24587, education='7th-8th', education_num=4, marital_status='Married', occupation='Doctor', relationship='Husband', race='Turkish', sex='Male', capital_gain=10, capital_loss=0, hours_per_week=40, native_country='Malaysia')]
-2023-08-24 18:01:40,719 INFO app:: result is ['<=50K']
-2023-08-24 18:06:02,131 INFO model.run_training:: Splitting data into test and train datasets
-2023-08-24 18:06:02,146 INFO model.run_training:: Training data has 24420 rows. Training the model..
-2023-08-24 18:06:02,146 INFO model.model:: Fitting the model..
-2023-08-24 18:06:02,604 INFO model.run_training:: Calculated on 8141 rows. Metrics with test data: precision: 0.68347, recall: 0.42916, f1: 0.52726
-2023-08-24 18:06:02,604 INFO model.preprocessing:: Pipeline is saved to ./model/trained_model/model.pkl
-2023-08-24 18:06:02,604 INFO model.preprocessing:: LabelEncoder is saved to ./model/trained_model/labelencoder.pkl
-2023-08-24 18:06:23,845 INFO model.preprocessing:: Pipeline is saved to ./mocked_directory/model.pkl
-2023-08-24 18:06:23,874 INFO model.model:: Fitting the model..
-2023-08-24 18:06:23,890 INFO tests.test_functions:: Pipeline is fitted: Success
-2023-08-24 18:06:23,951 INFO app:: Making inference on data [CensusDataInputs(age=34, workclass='Private', fnlgt=24587, education='7th-8th', education_num=4, marital_status='Married', occupation='Doctor', relationship='Husband', race='Turkish', sex='Male', capital_gain=10, capital_loss=0, hours_per_week=40, native_country='Malaysia')]
-2023-08-24 18:06:23,961 INFO app:: result is ['<=50K']
-2023-08-24 18:07:24,015 INFO __main__:: Making inference on data [CensusDataInputs(age=34, workclass='Private', fnlgt=24587, education='7th-8th', education_num=4, marital_status='Married', occupation='Doctor', relationship='Husband', race='Turkish', sex='Male', capital_gain=10, capital_loss=0, hours_per_week=40, native_country='Malaysia')]
-2023-08-24 18:07:24,038 INFO __main__:: result is ['<=50K']
-2023-08-24 18:29:22,238 INFO model.preprocessing:: Pipeline is saved to ./mocked_directory/model.pkl
-2023-08-24 18:29:26,410 INFO model.run_training:: Splitting data into test and train datasets
-2023-08-24 18:29:26,441 INFO model.run_training:: Training data has 24420 rows. Training the model..
-2023-08-24 18:29:26,441 INFO model.model:: Fitting the model..
-2023-08-24 18:29:27,133 INFO model.run_training:: Calculated on 8141 rows. Metrics with test data: precision: 0.68347, recall: 0.42916, f1: 0.52726
-2023-08-24 18:29:27,133 INFO model.preprocessing:: Pipeline is saved to ./model/trained_model/model.pkl
-2023-08-24 18:29:27,133 INFO model.preprocessing:: LabelEncoder is saved to ./model/trained_model/labelencoder.pkl
-2023-08-24 18:29:27,952 INFO model.model:: Fitting the model..
-2023-08-24 18:29:27,981 INFO tests.test_functions:: Pipeline is fitted: Success
-2023-08-24 18:29:28,045 INFO app:: Making inference on data [CensusDataInputs(age=34, workclass='Private', fnlgt=24587, education='7th-8th', education_num=4, marital_status='Married', occupation='Doctor', relationship='Husband', race='Turkish', sex='Male', capital_gain=10, capital_loss=0, hours_per_week=40, native_country='Malaysia')]
-2023-08-24 18:29:28,061 INFO app:: result is ['<=50K']
-2023-08-24 20:27:52,661 INFO model.preprocessing:: Pipeline is saved to ./mocked_directory/model.pkl
-2023-08-24 20:27:54,845 INFO model.run_training:: Splitting data into test and train datasets
-2023-08-24 20:27:54,861 INFO model.run_training:: Training data has 24420 rows. Training the model..
-2023-08-24 20:27:54,861 INFO model.model:: Fitting the model..
-2023-08-24 20:27:55,238 INFO model.run_training:: Calculated on 8141 rows. Metrics with test data: precision: 0.68347, recall: 0.42916, f1: 0.52726
-2023-08-24 20:27:55,238 INFO model.preprocessing:: Pipeline is saved to ./model/trained_model/model.pkl
-2023-08-24 20:27:55,238 INFO model.preprocessing:: LabelEncoder is saved to ./model/trained_model/labelencoder.pkl
-2023-08-24 20:27:55,647 INFO model.model:: Fitting the model..
-2023-08-24 20:27:55,647 INFO tests.test_functions:: Pipeline is fitted: Success
-2023-08-24 20:27:55,678 INFO app:: Making inference on data [CensusDataInputs(age=34, workclass='Private', fnlgt=24587, education='7th-8th', education_num=4, marital_status='Married', occupation='Doctor', relationship='Husband', race='Turkish', sex='Male', capital_gain=10, capital_loss=0, hours_per_week=40, native_country='Malaysia')]
-2023-08-24 20:27:55,694 INFO app:: result is ['<=50K']
-2023-08-24 20:34:24,403 INFO __main__:: data [{'age': 34, 'workclass': 'Private', 'fnlgt': 13, 'education': '7th-8th', 'education_num': 4, 'maritalstatus': 'Married', 'occupation': 'Doctor', 'relationship': 'Husband', 'race': 'Turkish', 'sex': 'Male', 'capital_gain': 10, 'capital_loss': 0, 'hours_per_week': 40, 'native_country': 'Malaysia'}] gives error. Error message: [
-  {
-    "loc": [
-      "data",
-      0,
-      "marital_status"
-    ],
-    "msg": "field required",
-    "type": "value_error.missing"
-  }
-]
-2023-08-24 20:36:12,406 INFO __main__:: data [{'age': 34, 'workclass': 'Private', 'fnlgt': 13, 'education': '7th-8th', 'education_num': 4, 'maritalstatus': 'Married', 'occupation': 'Doctor', 'relationship': 'Husband', 'race': 'Turkish', 'sex': 'Male', 'capital_gain': 10, 'capital_loss': 0, 'hours_per_week': 40, 'native_country': 'Malaysia'}] gives error. Error message: [
-  {
-    "loc": [
-      "data",
-      0,
-      "marital_status"
-    ],
-    "msg": "field required",
-    "type": "value_error.missing"
-  }
-]
-2023-08-24 20:38:53,812 INFO model.preprocessing:: Pipeline is saved to ./mocked_directory/model.pkl
-2023-08-24 20:38:56,712 INFO model.run_training:: Splitting data into test and train datasets
-2023-08-24 20:38:56,732 INFO model.run_training:: Training data has 24420 rows. Training the model..
-2023-08-24 20:38:56,732 INFO model.model:: Fitting the model..
-2023-08-24 20:38:57,187 INFO model.run_training:: Calculated on 8141 rows. Metrics with test data: precision: 0.68347, recall: 0.42916, f1: 0.52726
-2023-08-24 20:38:57,187 INFO model.preprocessing:: Pipeline is saved to ./model/trained_model/model.pkl
-2023-08-24 20:38:57,187 INFO model.preprocessing:: LabelEncoder is saved to ./model/trained_model/labelencoder.pkl
-2023-08-24 20:38:57,786 INFO model.model:: Fitting the model..
-2023-08-24 20:38:57,805 INFO tests.test_functions:: Pipeline is fitted: Success
-2023-08-24 20:38:57,864 INFO app:: Making inference on data [CensusDataInputs(age=34, workclass='Private', fnlgt=24587, education='7th-8th', education_num=4, marital_status='Married', occupation='Doctor', relationship='Husband', race='Turkish', sex='Male', capital_gain=10, capital_loss=0, hours_per_week=40, native_country='Malaysia')]
-2023-08-24 20:38:57,872 INFO app:: result is ['<=50K']
-2023-08-24 20:39:23,601 INFO model.preprocessing:: Pipeline is saved to ./mocked_directory/model.pkl
-2023-08-24 20:39:23,635 INFO model.model:: Fitting the model..
-2023-08-24 20:39:23,649 INFO tests.test_functions:: Pipeline is fitted: Success
-2023-08-24 20:39:23,727 INFO app:: Making inference on data [CensusDataInputs(age=34, workclass='Private', fnlgt=24587, education='7th-8th', education_num=4, marital_status='Married', occupation='Doctor', relationship='Husband', race='Turkish', sex='Male', capital_gain=10, capital_loss=0, hours_per_week=40, native_country='Malaysia')]
-2023-08-24 20:39:23,747 INFO app:: result is ['<=50K']
-2023-08-24 20:42:07,739 INFO model.preprocessing:: Pipeline is saved to ./mocked_directory/model.pkl
-2023-08-24 20:42:07,754 INFO model.model:: Fitting the model..
-2023-08-24 20:42:07,770 INFO tests.test_functions:: Pipeline is fitted: Success
-2023-08-24 20:42:07,810 INFO app:: Making inference on data [CensusDataInputs(age=34, workclass='Private', fnlgt=24587, education='7th-8th', education_num=4, marital_status='Married', occupation='Doctor', relationship='Husband', race='Turkish', sex='Male', capital_gain=10, capital_loss=0, hours_per_week=40, native_country='Malaysia')]
-2023-08-24 20:42:07,827 INFO app:: result is ['<=50K']
-2023-08-25 07:13:29,944 INFO model.preprocessing:: Pipeline is saved to ./mocked_directory/model.pkl
-2023-08-25 07:13:29,982 INFO model.model:: Fitting the model..
-2023-08-25 07:13:30,053 INFO tests.test_functions:: Pipeline is fitted: Success
-2023-08-25 07:13:30,159 INFO app:: Making inference on data [CensusDataInputs(age=34, workclass='Private', fnlgt=24587, education='7th-8th', education_num=4, marital_status='Married', occupation='Doctor', relationship='Husband', race='Turkish', sex='Male', capital_gain=10, capital_loss=0, hours_per_week=40, native_country='Malaysia')]
-2023-08-25 07:13:30,196 INFO app:: result is ['<=50K']
-2023-08-25 07:14:20,592 INFO model.preprocessing:: Pipeline is saved to ./mocked_directory/model.pkl
-2023-08-25 07:14:20,606 INFO model.model:: Fitting the model..
-2023-08-25 07:14:20,622 INFO tests.test_functions:: Pipeline is fitted: Success
-2023-08-25 07:14:20,669 INFO app:: Making inference on data [CensusDataInputs(age=34, workclass='Private', fnlgt=24587, education='7th-8th', education_num=4, marital_status='Married', occupation='Doctor', relationship='Husband', race='Turkish', sex='Male', capital_gain=10, capital_loss=0, hours_per_week=40, native_country='Malaysia')]
-2023-08-25 07:14:20,695 INFO app:: result is ['<=50K']
-2023-08-25 07:15:28,085 INFO model.preprocessing:: Pipeline is saved to ./mocked_directory/model.pkl
-2023-08-25 07:15:28,113 INFO model.model:: Fitting the model..
-2023-08-25 07:15:28,117 INFO tests.test_functions:: Pipeline is fitted: Success
-2023-08-25 07:15:28,162 INFO app:: Making inference on data [CensusDataInputs(age=34, workclass='Private', fnlgt=24587, education='7th-8th', education_num=4, marital_status='Married', occupation='Doctor', relationship='Husband', race='Turkish', sex='Male', capital_gain=10, capital_loss=0, hours_per_week=40, native_country='Malaysia')]
-2023-08-25 07:15:28,180 INFO app:: result is ['<=50K']
-2023-08-25 07:16:48,842 INFO model.preprocessing:: Pipeline is saved to ./mocked_directory/model.pkl
-2023-08-25 07:16:48,883 INFO model.model:: Fitting the model..
-2023-08-25 07:16:48,930 INFO tests.test_functions:: Pipeline is fitted: Success
-2023-08-25 07:16:48,977 INFO app:: Making inference on data [CensusDataInputs(age=34, workclass='Private', fnlgt=24587, education='7th-8th', education_num=4, marital_status='Married', occupation='Doctor', relationship='Husband', race='Turkish', sex='Male', capital_gain=10, capital_loss=0, hours_per_week=40, native_country='Malaysia')]
-2023-08-25 07:16:48,981 INFO app:: result is ['<=50K']
-2023-08-25 07:18:14,928 INFO model.preprocessing:: Pipeline is saved to ./mocked_directory/model.pkl
-2023-08-25 07:18:14,944 INFO model.model:: Fitting the model..
-2023-08-25 07:18:14,960 INFO tests.test_functions:: Pipeline is fitted: Success
-2023-08-25 07:18:15,023 INFO app:: Making inference on data [CensusDataInputs(age=34, workclass='Private', fnlgt=24587, education='7th-8th', education_num=4, marital_status='Married', occupation='Doctor', relationship='Husband', race='Turkish', sex='Male', capital_gain=10, capital_loss=0, hours_per_week=40, native_country='Malaysia')]
-2023-08-25 07:18:15,041 INFO app:: result is ['<=50K']
-2023-08-25 08:20:15,369 INFO __main__:: data [{'age': 34, 'workclass': 'Private', 'fnlgt': 13, 'education': '7th-8th', 'education_num': 4, 'maritalstatus': 'Married', 'occupation': 'Doctor', 'relationship': 'Husband', 'race': 'Turkish', 'sex': 'Male', 'capital_gain': 10, 'capital_loss': 0, 'hours_per_week': 40, 'native_country': 'Malaysia'}] gives error. Error message: [
-  {
-    "loc": [
-      "data",
-      0,
-      "marital_status"
-    ],
-    "msg": "field required",
-    "type": "value_error.missing"
-  }
-]
-2023-08-25 08:20:42,764 INFO __main__:: data [{'age': 34, 'workclass': 'Private', 'fnlgt': 13, 'education': '7th-8th', 'education_num': 4, 'maritalstatus': 'Married', 'occupation': 'Doctor', 'relationship': 'Husband', 'race': 'Turkish', 'sex': 'Male', 'capital_gain': 10, 'capital_loss': 0, 'hours_per_week': 40, 'native_country': 'Malaysia'}] gives error. Error message: [
-  {
-    "loc": [
-      "data",
-      0,
-      "marital_status"
-    ],
-    "msg": "field required",
-    "type": "value_error.missing"
-  }
-]
-2023-08-25 08:21:01,493 INFO __main__:: data [{'age': 34, 'workclass': 'Private', 'fnlgt': 13, 'education': '7th-8th', 'education_num': 4, 'maritalstatus': 'Married', 'occupation': 'Doctor', 'relationship': 'Husband', 'race': 'Turkish', 'sex': 'Male', 'capital_gain': 10, 'capital_loss': 0, 'hours_per_week': 40, 'native_country': 'Malaysia'}] gives error. Error message: [
-  {
-    "loc": [
-      "data",
-      0,
-      "marital_status"
-    ],
-    "msg": "field required",
-    "type": "value_error.missing"
-  }
-]
-2023-08-25 08:31:58,856 INFO model.preprocessing:: Pipeline is saved to ./mocked_directory/model.pkl
-2023-08-25 08:31:58,902 INFO model.model:: Fitting the model..
-2023-08-25 08:31:58,905 INFO tests.test_functions:: Pipeline is fitted: Success
-2023-08-25 08:31:58,952 INFO app:: Making inference on data [CensusDataInputs(age=34, workclass='Private', fnlgt=24587, education='7th-8th', education_num=4, marital_status='Married', occupation='Doctor', relationship='Husband', race='Turkish', sex='Male', capital_gain=10, capital_loss=0, hours_per_week=40, native_country='Malaysia')]
-2023-08-25 08:31:58,963 INFO app:: result is ['<=50K']
-2023-08-25 08:33:35,360 INFO model.preprocessing:: Pipeline is saved to ./mocked_directory/model.pkl
-2023-08-25 08:33:35,391 INFO model.model:: Fitting the model..
-2023-08-25 08:33:35,407 INFO tests.test_functions:: Pipeline is fitted: Success
-2023-08-25 08:33:35,475 INFO app:: Making inference on data [CensusDataInputs(age=34, workclass='Private', fnlgt=24587, education='7th-8th', education_num=4, marital_status='Married', occupation='Doctor', relationship='Husband', race='Turkish', sex='Male', capital_gain=10, capital_loss=0, hours_per_week=40, native_country='Malaysia')]
-2023-08-25 08:33:35,486 INFO app:: result is ['<=50K']
-2023-08-25 08:41:50,833 INFO model.run_training:: Splitting data into test and train datasets
-2023-08-25 08:41:50,898 INFO model.run_training:: Training data has 24420 rows. Training the model..
-2023-08-25 08:41:50,898 INFO model.model:: Fitting the model..
-2023-08-25 08:41:51,369 INFO model.run_training:: Calculated on 8141 rows. Metrics with test data: precision: 0.68347, recall: 0.42916, f1: 0.52726
-2023-08-25 08:41:51,385 INFO model.preprocessing:: Pipeline is saved to ./model/trained_model/model.pkl
-2023-08-25 08:41:51,385 INFO model.preprocessing:: LabelEncoder is saved to ./model/trained_model/labelencoder.pkl
-2023-08-25 08:43:25,736 INFO __main__:: Making inference on data [CensusDataInputs(age=34, workclass='Private', fnlgt=24587, education='College', education_num=12, marital_status='Married', occupation='Doctor', relationship='Husband', race='Turkish', sex='Male', capital_gain=10, capital_loss=0, hours_per_week=40, native_country='Malaysia')]
-2023-08-25 08:43:25,756 INFO __main__:: result is ['<=50K']
-2023-08-25 08:43:28,277 INFO __main__:: Making inference on data [CensusDataInputs(age=34, workclass='Private', fnlgt=24587, education='College', education_num=12, marital_status='Married', occupation='Doctor', relationship='Husband', race='Turkish', sex='Male', capital_gain=10, capital_loss=0, hours_per_week=40, native_country='Malaysia')]
-2023-08-25 08:43:28,306 INFO __main__:: result is ['<=50K']
-2023-08-25 08:49:31,304 INFO __main__:: Making inference on data [CensusDataInputs(age=34, workclass='Private', fnlgt=24587, education='College', education_num=12, marital_status='Married', occupation='Doctor', relationship='Husband', race='Turkish', sex='Male', capital_gain=10, capital_loss=0, hours_per_week=40, native_country='Malaysia')]
-2023-08-25 08:49:31,330 INFO __main__:: result is ['<=50K']
-2023-08-25 08:53:07,173 INFO model.preprocessing:: Pipeline is saved to ./mocked_directory/model.pkl
-2023-08-25 08:53:07,202 INFO model.model:: Fitting the model..
-2023-08-25 08:53:07,204 INFO tests.test_functions:: Pipeline is fitted: Success
-2023-08-25 08:53:07,238 INFO app:: Making inference on data [CensusDataInputs(age=34, workclass='Private', fnlgt=24587, education='College', education_num=12, marital_status='Married', occupation='Doctor', relationship='Husband', race='Turkish', sex='Male', capital_gain=10, capital_loss=0, hours_per_week=40, native_country='Malaysia')]
-2023-08-25 08:53:07,266 INFO app:: result is ['<=50K']
-2023-08-25 09:07:33,616 INFO model.preprocessing:: Pipeline is saved to ./mocked_directory/model.pkl
-2023-08-25 09:07:33,628 INFO model.model:: Fitting the model..
-2023-08-25 09:07:33,642 INFO tests.test_functions:: Pipeline is fitted: Success
-2023-08-25 09:07:33,709 INFO app:: Making inference on data [CensusDataInputs(age=34, workclass='Private', fnlgt=24587, education='College', education_num=12, marital_status='Married', occupation='Doctor', relationship='Husband', race='Turkish', sex='Male', capital_gain=10, capital_loss=0, hours_per_week=40, native_country='Malaysia')]
-2023-08-25 09:07:33,721 INFO app:: result is ['<=50K']
-2023-08-25 09:10:02,593 INFO model.preprocessing:: Pipeline is saved to ./mocked_directory/model.pkl
-2023-08-25 09:10:02,625 INFO model.model:: Fitting the model..
-2023-08-25 09:10:02,641 INFO tests.test_functions:: Pipeline is fitted: Success
-2023-08-25 09:10:02,690 INFO app:: Making inference on data [CensusDataInputs(age=34, workclass='Private', fnlgt=24587, education='College', education_num=12, marital_status='Married', occupation='Doctor', relationship='Husband', race='Turkish', sex='Male', capital_gain=10, capital_loss=0, hours_per_week=40, native_country='Malaysia')]
-2023-08-25 09:10:02,712 INFO app:: result is ['<=50K']
-2023-08-25 09:10:13,456 INFO model.run_training:: Splitting data into test and train datasets
-2023-08-25 09:10:13,487 INFO model.run_training:: Training data has 24420 rows. Training the model..
-2023-08-25 09:10:13,487 INFO model.model:: Fitting the model..
-2023-08-25 09:10:13,985 INFO model.run_training:: Calculated on 8141 rows. Metrics with test data: precision: 0.68347, recall: 0.42916, f1: 0.52726
-2023-08-25 09:10:13,992 INFO model.preprocessing:: Pipeline is saved to ./model/trained_model/model.pkl
-2023-08-25 09:10:13,999 INFO model.preprocessing:: LabelEncoder is saved to ./model/trained_model/labelencoder.pkl
-2023-08-25 09:11:09,026 INFO __main__:: Making inference on data [CensusDataInputs(age=34, workclass='Private', fnlgt=24587, education='College', education_num=12, marital_status='Married', occupation='Doctor', relationship='Husband', race='Turkish', sex='Male', capital_gain=10, capital_loss=0, hours_per_week=40, native_country='Malaysia')]
-2023-08-25 09:11:09,060 INFO __main__:: result is ['<=50K']
-2023-08-25 09:11:18,167 INFO __main__:: Making inference on data [CensusDataInputs(age=34, workclass='Private', fnlgt=24587, education='College', education_num=12, marital_status='Married', occupation='Doctor', relationship='Husband', race='Turkish', sex='Male', capital_gain=10000, capital_loss=0, hours_per_week=40, native_country='Malaysia')]
-2023-08-25 09:11:18,195 INFO __main__:: result is ['>50K']
-2023-08-25 09:15:01,874 INFO model.preprocessing:: Pipeline is saved to ./mocked_directory/model.pkl
-2023-08-25 09:15:01,909 INFO model.model:: Fitting the model..
-2023-08-25 09:15:01,924 INFO tests.test_functions:: Pipeline is fitted: Success
-2023-08-25 09:15:01,957 INFO app:: Making inference on data [CensusDataInputs(age=34, workclass='Private', fnlgt=24587, education='College', education_num=12, marital_status='Married', occupation='Doctor', relationship='Husband', race='Turkish', sex='Male', capital_gain=10, capital_loss=0, hours_per_week=40, native_country='Malaysia')]
-2023-08-25 09:15:01,969 INFO app:: result is ['<=50K']
-2023-08-25 09:20:03,627 INFO model.preprocessing:: Pipeline is saved to ./mocked_directory/model.pkl
-2023-08-25 09:20:03,688 INFO model.model:: Fitting the model..
-2023-08-25 09:20:03,720 INFO tests.test_functions:: Pipeline is fitted: Success
-2023-08-25 09:20:03,769 INFO app:: Making inference on data [CensusDataInputs(age=34, workclass='Private', fnlgt=24587, education='College', education_num=12, marital_status='Married', occupation='Doctor', relationship='Husband', race='Turkish', sex='Male', capital_gain=10, capital_loss=0, hours_per_week=40, native_country='Malaysia')]
-2023-08-25 09:20:03,782 INFO app:: result is ['<=50K']
-2023-08-25 12:48:27,741 INFO model.preprocessing:: Pipeline is saved to ./mocked_directory/model.pkl
-2023-08-25 12:48:27,771 INFO model.model:: Fitting the model..
-2023-08-25 12:48:27,793 INFO tests.test_functions:: Pipeline is fitted: Success
-2023-08-25 12:48:27,845 INFO app:: Making inference on data [CensusDataInputs(age=34, workclass='Private', fnlgt=24587, education='College', education_num=12, marital_status='Married', occupation='Doctor', relationship='Husband', race='Turkish', sex='Male', capital_gain=10, capital_loss=0, hours_per_week=40, native_country='Malaysia')]
-2023-08-25 12:48:27,849 INFO app:: result is ['<=50K']
+2023-08-26 12:56:20,710 INFO model.run_training:: Splitting data into test and train datasets
+2023-08-26 12:56:20,742 INFO model.run_training:: Training data has 24420 rows. Training the model..
+2023-08-26 12:56:20,742 INFO model.model:: Fitting the model..
+2023-08-26 12:56:21,417 INFO model.run_training:: Calculated on 8141 rows. Metrics with test data: precision: 0.68347, recall: 0.42916, f1: 0.52726
+2023-08-26 12:56:21,559 INFO model.model:: 
+Metrics on model slices with different education values
+1320 rows with Bachelors value in the test set
+Metrics for Bachelors:
+f1: 0.58105, precision: 0.67482, recall: 0.51017
+------------------------------------------------------
+2629 rows with HS-grad value in the test set
+Metrics for HS-grad:
+f1: 0.28674, precision: 0.61538, recall: 0.18692
+------------------------------------------------------
+286 rows with 11th value in the test set
+Metrics for 11th:
+f1: 0.37500, precision: 1.00000, recall: 0.23077
+------------------------------------------------------
+433 rows with Masters value in the test set
+Metrics for Masters:
+f1: 0.69512, precision: 0.68952, recall: 0.70082
+------------------------------------------------------
+139 rows with 9th value in the test set
+Metrics for 9th:
+f1: 0.00000, precision: 1.00000, recall: 0.00000
+------------------------------------------------------
+1838 rows with Some-college value in the test set
+Metrics for Some-college:
+f1: 0.36093, precision: 0.66406, recall: 0.24781
+------------------------------------------------------
+254 rows with Assoc-acdm value in the test set
+Metrics for Assoc-acdm:
+f1: 0.42697, precision: 0.59375, recall: 0.33333
+------------------------------------------------------
+343 rows with Assoc-voc value in the test set
+Metrics for Assoc-voc:
+f1: 0.37097, precision: 0.56098, recall: 0.27711
+------------------------------------------------------
+176 rows with 7th-8th value in the test set
+Metrics for 7th-8th:
+f1: 0.00000, precision: 1.00000, recall: 0.00000
+------------------------------------------------------
+96 rows with Doctorate value in the test set
+Metrics for Doctorate:
+f1: 0.86061, precision: 0.77174, recall: 0.97260
+------------------------------------------------------
+142 rows with Prof-school value in the test set
+Metrics for Prof-school:
+f1: 0.83784, precision: 0.78151, recall: 0.90291
+------------------------------------------------------
+86 rows with 5th-6th value in the test set
+Metrics for 5th-6th:
+f1: 0.00000, precision: 1.00000, recall: 0.00000
+------------------------------------------------------
+240 rows with 10th value in the test set
+Metrics for 10th:
+f1: 0.30000, precision: 0.75000, recall: 0.18750
+------------------------------------------------------
+31 rows with 1st-4th value in the test set
+Metrics for 1st-4th:
+f1: 1.00000, precision: 1.00000, recall: 1.00000
+------------------------------------------------------
+12 rows with Preschool value in the test set
+Metrics for Preschool:
+f1: 0.00000, precision: 0.00000, recall: 1.00000
+------------------------------------------------------
+116 rows with 12th value in the test set
+Metrics for 12th:
+f1: 0.60000, precision: 1.00000, recall: 0.42857
+------------------------------------------------------
+2023-08-26 12:56:21,559 INFO model.preprocessing:: Pipeline is saved to ./model/trained_model/model.pkl
+2023-08-26 12:56:21,574 INFO model.preprocessing:: LabelEncoder is saved to ./model/trained_model/labelencoder.pkl
+2023-08-26 12:56:32,044 INFO app:: Making inference on data [CensusDataInputs(age=34, workclass='Private', fnlgt=24587, education='College', education_num=12, marital_status='Married', occupation='Doctor', relationship='Husband', race='White', sex='Male', capital_gain=10, capital_loss=0, hours_per_week=40, native_country='Malaysia')]
+2023-08-26 12:56:32,065 INFO app:: result is ['<=50K']
+2023-08-26 12:56:32,232 INFO model.preprocessing:: Pipeline is saved to ./mocked_directory/model.pkl
+2023-08-26 12:56:32,264 INFO model.model:: Fitting the model..
+2023-08-26 12:56:32,295 INFO tests.test_functions:: Pipeline is fitted: Success
+2023-08-26 12:57:57,468 INFO model.run_training:: Splitting data into test and train datasets
+2023-08-26 12:57:57,500 INFO model.run_training:: Training data has 24420 rows. Training the model..
+2023-08-26 12:57:57,500 INFO model.model:: Fitting the model..
+2023-08-26 12:57:58,160 INFO model.run_training:: Calculated on 8141 rows. Metrics with test data: precision: 0.68347, recall: 0.42916, f1: 0.52726
+2023-08-26 12:57:58,313 INFO model.model:: 
+Metrics on model slices with different education values
+1320 rows with education = Bachelors in the test set
+Metrics for Bachelors:
+f1: 0.58105, precision: 0.67482, recall: 0.51017
+------------------------------------------------------
+2629 rows with education = HS-grad in the test set
+Metrics for HS-grad:
+f1: 0.28674, precision: 0.61538, recall: 0.18692
+------------------------------------------------------
+286 rows with education = 11th in the test set
+Metrics for 11th:
+f1: 0.37500, precision: 1.00000, recall: 0.23077
+------------------------------------------------------
+433 rows with education = Masters in the test set
+Metrics for Masters:
+f1: 0.69512, precision: 0.68952, recall: 0.70082
+------------------------------------------------------
+139 rows with education = 9th in the test set
+Metrics for 9th:
+f1: 0.00000, precision: 1.00000, recall: 0.00000
+------------------------------------------------------
+1838 rows with education = Some-college in the test set
+Metrics for Some-college:
+f1: 0.36093, precision: 0.66406, recall: 0.24781
+------------------------------------------------------
+254 rows with education = Assoc-acdm in the test set
+Metrics for Assoc-acdm:
+f1: 0.42697, precision: 0.59375, recall: 0.33333
+------------------------------------------------------
+343 rows with education = Assoc-voc in the test set
+Metrics for Assoc-voc:
+f1: 0.37097, precision: 0.56098, recall: 0.27711
+------------------------------------------------------
+176 rows with education = 7th-8th in the test set
+Metrics for 7th-8th:
+f1: 0.00000, precision: 1.00000, recall: 0.00000
+------------------------------------------------------
+96 rows with education = Doctorate in the test set
+Metrics for Doctorate:
+f1: 0.86061, precision: 0.77174, recall: 0.97260
+------------------------------------------------------
+142 rows with education = Prof-school in the test set
+Metrics for Prof-school:
+f1: 0.83784, precision: 0.78151, recall: 0.90291
+------------------------------------------------------
+86 rows with education = 5th-6th in the test set
+Metrics for 5th-6th:
+f1: 0.00000, precision: 1.00000, recall: 0.00000
+------------------------------------------------------
+240 rows with education = 10th in the test set
+Metrics for 10th:
+f1: 0.30000, precision: 0.75000, recall: 0.18750
+------------------------------------------------------
+31 rows with education = 1st-4th in the test set
+Metrics for 1st-4th:
+f1: 1.00000, precision: 1.00000, recall: 1.00000
+------------------------------------------------------
+12 rows with education = Preschool in the test set
+Metrics for Preschool:
+f1: 0.00000, precision: 0.00000, recall: 1.00000
+------------------------------------------------------
+116 rows with education = 12th in the test set
+Metrics for 12th:
+f1: 0.60000, precision: 1.00000, recall: 0.42857
+------------------------------------------------------
+2023-08-26 12:57:58,317 INFO model.preprocessing:: Pipeline is saved to ./model/trained_model/model.pkl
+2023-08-26 12:57:58,317 INFO model.preprocessing:: LabelEncoder is saved to ./model/trained_model/labelencoder.pkl
+2023-08-26 12:59:33,095 INFO model.run_training:: Splitting data into test and train datasets
+2023-08-26 12:59:33,127 INFO model.run_training:: Training data has 24420 rows. Training the model..
+2023-08-26 12:59:33,127 INFO model.model:: Fitting the model..
+2023-08-26 12:59:33,787 INFO model.run_training:: Calculated on 8141 rows. Metrics with test data: precision: 0.68347, recall: 0.42916, f1: 0.52726
+2023-08-26 12:59:33,929 INFO model.model:: 
+Metrics on model slices with different education values
+1320 rows with education = Bachelors in the test set
+Metrics for Bachelors:
+f1: 0.58105, precision: 0.67482, recall: 0.51017
+------------------------------------------------------
+2629 rows with education = HS-grad in the test set
+Metrics for HS-grad:
+f1: 0.28674, precision: 0.61538, recall: 0.18692
+------------------------------------------------------
+286 rows with education = 11th in the test set
+Metrics for 11th:
+f1: 0.37500, precision: 1.00000, recall: 0.23077
+------------------------------------------------------
+433 rows with education = Masters in the test set
+Metrics for Masters:
+f1: 0.69512, precision: 0.68952, recall: 0.70082
+------------------------------------------------------
+139 rows with education = 9th in the test set
+Metrics for 9th:
+f1: 0.00000, precision: 1.00000, recall: 0.00000
+------------------------------------------------------
+1838 rows with education = Some-college in the test set
+Metrics for Some-college:
+f1: 0.36093, precision: 0.66406, recall: 0.24781
+------------------------------------------------------
+254 rows with education = Assoc-acdm in the test set
+Metrics for Assoc-acdm:
+f1: 0.42697, precision: 0.59375, recall: 0.33333
+------------------------------------------------------
+343 rows with education = Assoc-voc in the test set
+Metrics for Assoc-voc:
+f1: 0.37097, precision: 0.56098, recall: 0.27711
+------------------------------------------------------
+176 rows with education = 7th-8th in the test set
+Metrics for 7th-8th:
+f1: 0.00000, precision: 1.00000, recall: 0.00000
+------------------------------------------------------
+96 rows with education = Doctorate in the test set
+Metrics for Doctorate:
+f1: 0.86061, precision: 0.77174, recall: 0.97260
+------------------------------------------------------
+142 rows with education = Prof-school in the test set
+Metrics for Prof-school:
+f1: 0.83784, precision: 0.78151, recall: 0.90291
+------------------------------------------------------
+86 rows with education = 5th-6th in the test set
+Metrics for 5th-6th:
+f1: 0.00000, precision: 1.00000, recall: 0.00000
+------------------------------------------------------
+240 rows with education = 10th in the test set
+Metrics for 10th:
+f1: 0.30000, precision: 0.75000, recall: 0.18750
+------------------------------------------------------
+31 rows with education = 1st-4th in the test set
+Metrics for 1st-4th:
+f1: 1.00000, precision: 1.00000, recall: 1.00000
+------------------------------------------------------
+12 rows with education = Preschool in the test set
+Metrics for Preschool:
+f1: 0.00000, precision: 0.00000, recall: 1.00000
+------------------------------------------------------
+116 rows with education = 12th in the test set
+Metrics for 12th:
+f1: 0.60000, precision: 1.00000, recall: 0.42857
+------------------------------------------------------
+2023-08-26 12:59:33,945 INFO model.preprocessing:: Pipeline is saved to ./model/trained_model/model.pkl
+2023-08-26 12:59:33,945 INFO model.preprocessing:: LabelEncoder is saved to ./model/trained_model/labelencoder.pkl
+2023-08-26 13:05:47,706 INFO app:: Making inference on data [CensusDataInputs(age=34, workclass='Private', fnlgt=24587, education='College', education_num=12, marital_status='Married', occupation='Doctor', relationship='Husband', race='White', sex='Male', capital_gain=10, capital_loss=0, hours_per_week=40, native_country='Malaysia')]
+2023-08-26 13:05:47,728 INFO app:: result is ['<=50K']
+2023-08-26 13:05:47,929 INFO model.preprocessing:: Pipeline is saved to ./mocked_directory/model.pkl
+2023-08-26 13:05:47,958 INFO model.model:: Fitting the model..
+2023-08-26 13:05:47,989 INFO tests.test_functions:: Pipeline is fitted: Success
+2023-08-26 13:06:13,353 INFO model.run_training:: Splitting data into test and train datasets
+2023-08-26 13:06:13,384 INFO model.run_training:: Training data has 24420 rows. Training the model..
+2023-08-26 13:06:13,384 INFO model.model:: Fitting the model..
+2023-08-26 13:06:14,029 INFO model.run_training:: Calculated on 8141 rows. Metrics with test data: precision: 0.68347, recall: 0.42916, f1: 0.52726
+2023-08-26 13:06:14,204 INFO model.model:: 
+Metrics on model slices with different education values
+1320 rows with education = Bachelors in the test set
+Metrics for Bachelors:
+f1: 0.58105, precision: 0.67482, recall: 0.51017
+------------------------------------------------------
+2629 rows with education = HS-grad in the test set
+Metrics for HS-grad:
+f1: 0.28674, precision: 0.61538, recall: 0.18692
+------------------------------------------------------
+286 rows with education = 11th in the test set
+Metrics for 11th:
+f1: 0.37500, precision: 1.00000, recall: 0.23077
+------------------------------------------------------
+433 rows with education = Masters in the test set
+Metrics for Masters:
+f1: 0.69512, precision: 0.68952, recall: 0.70082
+------------------------------------------------------
+139 rows with education = 9th in the test set
+Metrics for 9th:
+f1: 0.00000, precision: 1.00000, recall: 0.00000
+------------------------------------------------------
+1838 rows with education = Some-college in the test set
+Metrics for Some-college:
+f1: 0.36093, precision: 0.66406, recall: 0.24781
+------------------------------------------------------
+254 rows with education = Assoc-acdm in the test set
+Metrics for Assoc-acdm:
+f1: 0.42697, precision: 0.59375, recall: 0.33333
+------------------------------------------------------
+343 rows with education = Assoc-voc in the test set
+Metrics for Assoc-voc:
+f1: 0.37097, precision: 0.56098, recall: 0.27711
+------------------------------------------------------
+176 rows with education = 7th-8th in the test set
+Metrics for 7th-8th:
+f1: 0.00000, precision: 1.00000, recall: 0.00000
+------------------------------------------------------
+96 rows with education = Doctorate in the test set
+Metrics for Doctorate:
+f1: 0.86061, precision: 0.77174, recall: 0.97260
+------------------------------------------------------
+142 rows with education = Prof-school in the test set
+Metrics for Prof-school:
+f1: 0.83784, precision: 0.78151, recall: 0.90291
+------------------------------------------------------
+86 rows with education = 5th-6th in the test set
+Metrics for 5th-6th:
+f1: 0.00000, precision: 1.00000, recall: 0.00000
+------------------------------------------------------
+240 rows with education = 10th in the test set
+Metrics for 10th:
+f1: 0.30000, precision: 0.75000, recall: 0.18750
+------------------------------------------------------
+31 rows with education = 1st-4th in the test set
+Metrics for 1st-4th:
+f1: 1.00000, precision: 1.00000, recall: 1.00000
+------------------------------------------------------
+12 rows with education = Preschool in the test set
+Metrics for Preschool:
+f1: 0.00000, precision: 0.00000, recall: 1.00000
+------------------------------------------------------
+116 rows with education = 12th in the test set
+Metrics for 12th:
+f1: 0.60000, precision: 1.00000, recall: 0.42857
+------------------------------------------------------
+2023-08-26 13:06:14,218 INFO model.preprocessing:: Pipeline is saved to ./model/trained_model/model.pkl
+2023-08-26 13:06:14,218 INFO model.preprocessing:: LabelEncoder is saved to ./model/trained_model/labelencoder.pkl
+2023-08-26 14:06:12,780 INFO app:: Making inference on data [CensusDataInputs(age=34, workclass='Private', fnlgt=24587, education='College', education_num=12, marital_status='Married', occupation='Doctor', relationship='Husband', race='White', sex='Male', capital_gain=10, capital_loss=0, hours_per_week=40, native_country='Malaysia')]
+2023-08-26 14:06:12,811 INFO app:: result is ['<=50K']
+2023-08-26 14:06:13,000 INFO model.preprocessing:: Pipeline is saved to ./mocked_directory/model.pkl
+2023-08-26 14:06:13,033 INFO model.model:: Fitting the model..
+2023-08-26 14:06:13,047 INFO tests.test_functions:: Pipeline is fitted: Success
+2023-08-26 14:08:45,225 INFO app:: Making inference on data [CensusDataInputs(age=34, workclass='Private', fnlgt=24587, education='College', education_num=12, marital_status='Married', occupation='Doctor', relationship='Husband', race='White', sex='Male', capital_gain=10, capital_loss=0, hours_per_week=40, native_country='Malaysia')]
+2023-08-26 14:08:45,256 INFO app:: result is ['<=50K']
+2023-08-26 14:08:45,429 INFO model.preprocessing:: Pipeline is saved to ./mocked_directory/model.pkl
+2023-08-26 14:08:45,461 INFO model.model:: Fitting the model..
+2023-08-26 14:08:45,492 INFO tests.test_functions:: Pipeline is fitted: Success

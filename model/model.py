@@ -4,6 +4,7 @@ import logging
 from typing import Union
 
 import pandas as pd
+import numpy as np
 from sklearn.compose import ColumnTransformer
 from sklearn.linear_model import SGDClassifier
 from sklearn.metrics import fbeta_score, precision_score, recall_score
@@ -68,6 +69,26 @@ def compute_model_metrics(y, preds):
     recall = recall_score(y, preds, zero_division=1)
 
     return precision, recall, fbeta
+
+
+def compute_metrics_on_slices(df: pd.DataFrame, X_test: pd.DataFrame,
+                              y_test: pd.Series, preds: pd.Series, feature: str):
+
+    logger_mes = f'\nMetrics on model slices with different {feature} values'
+
+    for clas in df[feature].unique():
+        indices = np.where(X_test[feature] == clas)[0]
+        fbeta = fbeta_score(y_test[indices], preds[indices], beta=1, zero_division=1)
+        precision = precision_score(y_test[indices], preds[indices], zero_division=1)
+        recall = recall_score(y_test[indices], preds[indices], zero_division=1)
+
+        logger_mes = logger_mes + \
+            f'\n{len(indices)} rows with {feature} = {clas} in the test set\n' + \
+            f'Metrics for {clas}:\n' + \
+            f'f1: {fbeta:.5f}, precision: {precision:.5f}, recall: {recall:.5f}\n' + \
+            '------------------------------------------------------'
+
+    logger.info(logger_mes)
 
 
 def inference(X: Union[pd.DataFrame, dict]) -> dict:

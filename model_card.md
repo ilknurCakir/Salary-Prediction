@@ -3,11 +3,11 @@
 ## Model Details
 * The model was created by I.Cakir
 * It is SGD Classifier with modified huber loss using mostly default parameters from scikit-learn
-* Binary classification if people make less than ot more than 50K
+* Binary classification if people make less than or more than 50K
 
 ## Intended Use
 * The model should be used for applications where you need the information if person makes less or larger than 50K based on personal attributes
-* Uses cases might include loan applications and dating applications where you can predict candidate date matches' salary
+* Use cases might include loan applications and dating applications where you can predict candidate date matches' salary
 
 ## Trining Data
 * Data is Census Income data extracted in 1994. It can be obtained from UCI ML Repository https://archive.ics.uci.edu/dataset/20/census+income

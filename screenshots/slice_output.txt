@@ -1,0 +1,66 @@
+2023-08-26 13:06:14,204 INFO model.model::
+Metrics on model slices with different education values
+1320 rows with education = Bachelors in the test set
+Metrics for Bachelors:
+f1: 0.58105, precision: 0.67482, recall: 0.51017
+------------------------------------------------------
+2629 rows with education = HS-grad in the test set
+Metrics for HS-grad:
+f1: 0.28674, precision: 0.61538, recall: 0.18692
+------------------------------------------------------
+286 rows with education = 11th in the test set
+Metrics for 11th:
+f1: 0.37500, precision: 1.00000, recall: 0.23077
+------------------------------------------------------
+433 rows with education = Masters in the test set
+Metrics for Masters:
+f1: 0.69512, precision: 0.68952, recall: 0.70082
+------------------------------------------------------
+139 rows with education = 9th in the test set
+Metrics for 9th:
+f1: 0.00000, precision: 1.00000, recall: 0.00000
+------------------------------------------------------
+1838 rows with education = Some-college in the test set
+Metrics for Some-college:
+f1: 0.36093, precision: 0.66406, recall: 0.24781
+------------------------------------------------------
+254 rows with education = Assoc-acdm in the test set
+Metrics for Assoc-acdm:
+f1: 0.42697, precision: 0.59375, recall: 0.33333
+------------------------------------------------------
+343 rows with education = Assoc-voc in the test set
+Metrics for Assoc-voc:
+f1: 0.37097, precision: 0.56098, recall: 0.27711
+------------------------------------------------------
+176 rows with education = 7th-8th in the test set
+Metrics for 7th-8th:
+f1: 0.00000, precision: 1.00000, recall: 0.00000
+------------------------------------------------------
+96 rows with education = Doctorate in the test set
+Metrics for Doctorate:
+f1: 0.86061, precision: 0.77174, recall: 0.97260
+------------------------------------------------------
+142 rows with education = Prof-school in the test set
+Metrics for Prof-school:
+f1: 0.83784, precision: 0.78151, recall: 0.90291
+------------------------------------------------------
+86 rows with education = 5th-6th in the test set
+Metrics for 5th-6th:
+f1: 0.00000, precision: 1.00000, recall: 0.00000
+------------------------------------------------------
+240 rows with education = 10th in the test set
+Metrics for 10th:
+f1: 0.30000, precision: 0.75000, recall: 0.18750
+------------------------------------------------------
+31 rows with education = 1st-4th in the test set
+Metrics for 1st-4th:
+f1: 1.00000, precision: 1.00000, recall: 1.00000
+------------------------------------------------------
+12 rows with education = Preschool in the test set
+Metrics for Preschool:
+f1: 0.00000, precision: 0.00000, recall: 1.00000
+------------------------------------------------------
+116 rows with education = 12th in the test set
+Metrics for 12th:
+f1: 0.60000, precision: 1.00000, recall: 0.42857
+------------------------------------------------------

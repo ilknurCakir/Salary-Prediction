@@ -6,7 +6,7 @@ from sklearn.preprocessing import LabelEncoder
 
 from model.config.core import config
 from model.logger import create_logger
-from model.model import compute_model_metrics, train_model
+from model.model import compute_model_metrics, train_model, compute_metrics_on_slices
 from model.preprocessing import load_dataset, save_labelencoder, save_pipeline
 from model.validation import fix_column_names, validate_data
 
@@ -49,6 +49,8 @@ def process_and_train(df: pd.DataFrame = None):
         f"Calculated on {len(y_test)} rows. Metrics with test data: "
         f"precision: {precision:.5f}, recall: {recall:.5f}, f1: {f1:.5f}"
     )
+
+    compute_metrics_on_slices(df, X_test, y_test, y_test_preds, 'education')
 
     # saving model
     save_pipeline(model)
