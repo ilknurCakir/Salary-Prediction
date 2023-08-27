@@ -38,7 +38,7 @@ class TestApiHealth(unittest.TestCase):
 
 
 class TestApiPredict(unittest.TestCase):
-    def test_api_predict(self):
+    def test_api_predict_lower(self):
         # we can load the data below
         test_data = pd.DataFrame(
             [
@@ -80,6 +80,51 @@ class TestApiPredict(unittest.TestCase):
 
         self.assertTrue(r_text["errors"] is None)
         expected_result = ["<=50K"]
+
+        self.assertTrue(r_text["predictions"] == expected_result)
+
+    def test_api_predict_upper(self):
+        # we can load the data below
+        test_data = pd.DataFrame(
+            [
+                {
+                  "age": 54,
+                  "workclass": "Private",
+                  "fnlgt": 24587,
+                  "education": "Doctorate",
+                  "education_num": 19,
+                  "marital_status": "Married",
+                  "occupation": "Doctor",
+                  "relationship": "Wife",
+                  "race": "White",
+                  "sex": "Female",
+                  "capital_gain": 1000,
+                  "capital_loss": 0,
+                  "hours_per_week": 40,
+                  "native_country": "United-States"
+                }
+            ]
+        )
+
+        payload = {"data": test_data.replace({np.nan: None}).to_dict(orient="records")}
+
+        # data should be payload
+        r = client.post("/predict", json=payload)
+
+        self.assertTrue(r.status_code == 200)
+
+        r_text = r.json()
+
+        try:
+            schemas.PredictionResults(**r_text)
+        except ValidationError as err:
+            self.fail(
+                f"Prediction response raised {err}, it is not "
+                f"PredictionResults schema"
+            )
+
+        self.assertTrue(r_text["errors"] is None)
+        expected_result = [">50K"]
 
         self.assertTrue(r_text["predictions"] == expected_result)
 
@@ -128,7 +173,7 @@ class TestApiPredict(unittest.TestCase):
         except Exception:
             pass
 
-    def test_api_predict_w_bad_column_name(self):
+    def test_api_predict_w_column_name_w_hyphen(self):
         '''
         Tests response when the data column name is with hyphen instead
         of underscore.
@@ -143,7 +188,7 @@ class TestApiPredict(unittest.TestCase):
                     "fnlgt": 1234,
                     "education": "College",
                     "education-num": 12,
-                    "marital_status": "Married",
+                    "marital-status": "Married",
                     "occupation": "Doctor",
                     "relationship": "Husband",
                     "race": "White",
@@ -161,14 +206,15 @@ class TestApiPredict(unittest.TestCase):
         # data should be payload
         r = client.post("/predict", json=payload)
 
-        # it should not return 200 status code
-        self.assertTrue(r.status_code != 200)
+        # it should return 200 status code due to hyphen_to_underscore
+        self.assertTrue(r.status_code == 200)
         r_text = r.json()
 
         # it should not return a response wirh PredictionResults schema
         try:
             schemas.PredictionResults(**r_text)
-            self.fail('Service returns response of PredictionResults'
-                      'schema with bad data')
-        except Exception:
-            pass
+        except ValidationError as err:
+            self.fail(
+                f"Prediction response raised {err}, it is not "
+                f"PredictionResults schema"
+            )

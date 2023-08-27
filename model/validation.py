@@ -4,6 +4,10 @@ import pandas as pd
 from pydantic import BaseModel, Field, ValidationError
 
 
+def hyphen_to_underscore(field_name):
+    return f"{field_name}".replace("_", "-")
+
+
 class CensusDataInputs(BaseModel):
     """
     Checks and validates data types
@@ -24,6 +28,10 @@ class CensusDataInputs(BaseModel):
     capital_loss: int
     hours_per_week: int
     native_country: str
+
+    class Config:
+        alias_generator = hyphen_to_underscore
+        allow_population_by_field_name = True
 
 
 class MultipleCensusDataInputs(BaseModel):

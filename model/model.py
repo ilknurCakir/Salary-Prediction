@@ -1,7 +1,7 @@
 # imports
 
 import logging
-from typing import Union
+from typing import Union, Optional
 
 import pandas as pd
 import numpy as np
@@ -98,6 +98,7 @@ def inference(X: Union[pd.DataFrame, dict]) -> dict:
     result = {"predictions": None, "errors": err}
 
     if err is None:
+        # if model is None:
         model = load_model()
         preds = model.predict(validated_data[config.features])
         result["predictions"] = preds

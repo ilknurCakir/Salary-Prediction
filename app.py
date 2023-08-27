@@ -23,6 +23,14 @@ app = FastAPI()
 
 api_router = APIRouter()
 
+# startup does not working for some reason
+# @app.on_event("startup")
+# async def startup_event():
+#     global model, le
+#     model = pickle.load(open(config.model_path, "rb"))
+#     le = pickle.load(open(config.labelencoder_path, "rb"))
+#     logger.info('startup event is triggered')
+
 
 @api_router.get("/health", response_model=schemas.Health, status_code=200)
 async def get_health(request: Request) -> dict:
@@ -53,10 +61,6 @@ async def predict(input_data: schemas.MultipleCensusDataInputs) -> Any:
 
     logger.info(f"Making inference on data {input_data.data}")
     result = inference(input_df)
-
-    # if results["errors"] is not None:
-    #     logger.warning(f"Prediction validation error: {results.get('errors')}")
-    #     raise HTTPException(status_code=400, detail=json.loads(results["errors"]))
 
     if result["errors"]:
         logger.info(
